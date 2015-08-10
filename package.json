@@ -1,0 +1,12 @@
+{
+  "name": "blessed-graphite",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "lovehandle",
+  "license": "BSD",
+  "dependencies": {
+    "blessed-contrib": "2.3.3",
+    "blessed": "0.1.80"
+  }
+}

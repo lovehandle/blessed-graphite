@@ -1,0 +1,21 @@
+[
+  {
+    "row":0,
+    "col":0,
+    "width":24,
+    "height":8,
+    "type":"line",
+    "style": {
+      "label":"HTTP Response Codes"
+    },
+    "data": {
+      "refresh":5000,
+      "target": [
+        "alias(stats.http_response_codes.200, '200s')",
+        "alias(stats.http_response_codes.400), '400s')",
+        "alias(stats.http_response_codes.500), '500s')"
+      ],
+      "colors":["green","yellow","red"]
+    }
+  }
+]
